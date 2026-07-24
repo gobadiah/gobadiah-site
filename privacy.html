@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — Gobadiah</title>
+    <meta name="description" content="Privacy policy for Gobadiah Inc. and its products, including the LogLens for CloudWatch Chrome extension." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠️</text></svg>" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap prose">
+      <a class="back" href="index.html">← Gobadiah</a>
+      <h1>Privacy Policy</h1>
+      <p class="note">Last updated: 2026-07-24</p>
+
+      <p>
+        This policy covers Gobadiah Inc. and its products. Today that means the
+        <strong>LogLens for CloudWatch</strong> Chrome extension; it applies to
+        future products except where a product states otherwise. It explains,
+        plainly, what our software does and does not do with your data.
+      </p>
+
+      <h2>LogLens for CloudWatch</h2>
+      <p>
+        LogLens is a Chrome extension that reformats the AWS CloudWatch Logs
+        console in your browser.
+      </p>
+
+      <h3 style="font-size:16px;margin:18px 0 6px">What it processes</h3>
+      <p>
+        The extension reads the log text already rendered on the CloudWatch Log
+        events page — solely to reformat it in place (convert timestamps to your
+        local time, project JSON fields into columns, and make JSON collapsible).
+        This processing happens entirely on your own device, inside your browser.
+      </p>
+
+      <h3 style="font-size:16px;margin:18px 0 6px">What it collects and transmits</h3>
+      <p>
+        <strong>Nothing about your logs.</strong> The extension does not collect,
+        store, or transmit your log content, your AWS credentials, or any browsing
+        activity. No log data ever leaves your browser. There is no analytics or
+        tracking of any kind.
+      </p>
+      <p>
+        The <strong>only</strong> network request the extension makes is to
+        validate your license key with our payment provider, Lemon Squeezy, when
+        you enter or re-check a key (endpoint <code>api.lemonsqueezy.com</code>).
+        That request contains only the license key and an anonymous activation
+        identifier — never any log data. The result is cached locally so the
+        extension keeps working offline.
+      </p>
+
+      <h3 style="font-size:16px;margin:18px 0 6px">Local storage</h3>
+      <p>
+        Your settings (such as which columns to show) and your license status are
+        stored locally in the browser via <code>chrome.storage.local</code> and
+        stay on your device.
+      </p>
+
+      <h2>Payments</h2>
+      <p>
+        Purchases are handled by Lemon Squeezy, our merchant of record. Any
+        payment or billing information you provide is processed by Lemon Squeezy
+        under
+        <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer">their privacy policy</a>;
+        our software never receives or stores it.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy:
+        <a href="mailto:gobadiah@gmail.com">gobadiah@gmail.com</a>.
+      </p>
+
+      <p class="note" style="margin-top: 32px">
+        Not affiliated with, sponsored, or endorsed by Amazon Web Services.
+        “AWS” and “CloudWatch” are trademarks of Amazon.com, Inc. or its
+        affiliates, used here solely to describe compatibility.
+      </p>
+    </div>
+  </body>
+</html>

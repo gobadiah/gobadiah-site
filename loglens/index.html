@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogLens for CloudWatch — readable AWS CloudWatch logs</title>
+    <meta
+      name="description"
+      content="A Chrome extension that makes the AWS CloudWatch Logs console readable: timestamps in your local time, scannable JSON columns, and collapsible fields. 100% client-side, one-time purchase."
+    />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔎</text></svg>" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="brand">🔎 LogLens <span>for CloudWatch</span></div>
+        <nav>
+          <a href="../">Gobadiah</a>
+          <a href="#features">Features</a>
+          <a href="../privacy.html">Privacy</a>
+        </nav>
+      </header>
+
+      <div class="hero">
+        <span class="badge">Chrome extension · one-time purchase</span>
+        <h1>Make the AWS CloudWatch Logs console readable.</h1>
+        <p class="lead">
+          The CloudWatch Log events view shows every timestamp in UTC and makes
+          you expand each row to read JSON. LogLens fixes that daily friction,
+          right in the console — timestamps in your local time, the JSON fields
+          you care about as scannable columns, and collapsible nested fields.
+        </p>
+        <div class="cta-row">
+          <a class="cta" href="#" aria-disabled="true">Get it on the Chrome Web Store</a>
+          <span class="price"><b>$19</b> one-time · 7-day free trial</span>
+        </div>
+        <p class="note" style="margin-top: 14px">Coming soon — the Web Store link goes live at launch.</p>
+      </div>
+
+      <section id="features">
+        <h2>What it does</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>🕒 Local time</h3>
+            <p>Every log-event timestamp is shown in your own timezone, with the original UTC on hover. No more 3am mental math.</p>
+          </div>
+          <div class="card">
+            <h3>▦ Scannable columns</h3>
+            <p>Pick the JSON fields you care about — <code>level</code>, <code>requestId</code>, any dot-path — and see their values per row, so you can scan a page without expanding anything.</p>
+          </div>
+          <div class="card">
+            <h3>⌄ Collapsible JSON</h3>
+            <p>Fold and unfold nested objects and arrays in expanded events, instead of one giant wall of text.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="trust">
+        <h2>Built for engineers who live in the console</h2>
+        <ul class="trust">
+          <li><b>100% client-side.</b> LogLens only reformats the log text already on your screen. It never sees your AWS credentials, and no log data ever leaves your browser.</li>
+          <li><b>One permission, the AWS console only.</b> No broad access. No remote code.</li>
+          <li><b>One-time purchase.</b> Buy once, use forever. No subscription.</li>
+        </ul>
+        <p class="note">The only network request LogLens ever makes is validating your license key. See the <a href="../privacy.html">privacy policy</a>.</p>
+      </section>
+
+      <footer>
+        <p>A <a href="../">Gobadiah</a> product · Support: <a href="mailto:gobadiah@gmail.com">gobadiah@gmail.com</a> · <a href="../privacy.html">Privacy policy</a></p>
+        <p class="disclaimer">
+          Not affiliated with, sponsored, or endorsed by Amazon Web Services.
+          "AWS" and "CloudWatch" are trademarks of Amazon.com, Inc. or its
+          affiliates, used here solely to describe compatibility.
+        </p>
+        <p class="disclaimer">© 2026 Gobadiah Inc.</p>
+      </footer>
+    </div>
+  </body>
+</html>
